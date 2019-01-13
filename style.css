@@ -1,0 +1,23 @@
+body	{
+	background-color:#00264d;
+	font-family:arial narrow;
+	color:#666699;
+}
+
+h2	{
+	text-align:center;
+	font-family:candara;
+	color:orange;
+}
+
+a:link, a:active, a:visited	{ 
+	color: #01EAFF;
+	text-shadow: 0 0 10px #01EAFF;
+	text-decoration: underline;
+}
+
+a:hover	{ 
+	color: #FF9600;
+	text-shadow: 0 0 10px #FF9600;
+	text-decoration: underline;
+}

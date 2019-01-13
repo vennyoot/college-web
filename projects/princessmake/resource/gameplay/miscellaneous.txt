@@ -1,0 +1,38 @@
+ Managing Household
+FOOD
+6 Banquets
+ +Well Fed
+ +Happy
+ -Active
+ -Healthy
+ -Humble
+ -Generous
+5 Gluttonous
+4 Generous
+3 Moderate
+ +Well Fed
+2 Stingy
+1 Occasional gruel
+0 Nothing
+ (Pride+: +Discipline)
+ (Pride-: -Discipline)
+ +Reliant
+ +Humble
+ +Greedy
+ -Well Fed
+
+UPKEEP
+6 Sparkling
+ +Clean
+
+5 Shining
+4 Polished
+3 Kept
+2 Unkempt
+1 Dingy
+0 Filthy
+ -Clean
+ -Active
+ -Focused
+ -Discipline
+ +Humble

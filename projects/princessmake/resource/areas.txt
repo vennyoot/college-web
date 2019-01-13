@@ -1,0 +1,58 @@
+ Slums
+Homeless Brawler
+Sea dog
+Pickpocket
+Ninja
+Back Alley Sally
+Drunk
+Madman
+Slum Priest
+Starving Artist
+
+ Country
+Elderly Master
+Stablehand
+Farmer
+Scout
+Old Ranger
+Druid
+Alchemist
+Guru
+
+ Docks
+Mercenary
+Powder Monkey
+Fisherman
+Dread Pirate
+Pirate King
+Contract Killer
+Missionary
+Bard
+
+ Old Town
+Soldier
+Messenger
+Burglar
+Stall Merchant
+Surgeon
+Busker
+Young Poet
+
+ Hightown
+Dojo Master
+Captain
+Spy
+Courtesan
+Merchant Lord
+Librarian
+Wizard
+Dance Master
+
+ Castle Town
+General
+Spymaster
+Foreign Diplomat
+King's Mistress
+Sage
+High Priest
+Royal Portraitist

@@ -1,0 +1,15 @@
+Happy/Unhappy (Death: Suicide)
+Healthy/Unhealthy (Death: Disease)
+Well-fed/Starving (Death: Starves)
+Serene/Stressed (Breakdown)
+
+Clean/Dirty (Health, Personality)
+Social/Lonely (Stress, Personality)
+Dressed/Shabby (Personality)
+
+Boredom
+Physical Activity
+Mental Stimulation
+Spiritual Satisfaction
+
+Popular/Unpopular (Death: Assassination)
