@@ -16,7 +16,7 @@ a:link, a:active, a:visited	{
 	text-decoration: underline;
 }
 
-a:hover	{ 
+a:hover	{
 	color: #FF9600;
 	text-shadow: 0 0 10px #FF9600;
 	text-decoration: underline;
