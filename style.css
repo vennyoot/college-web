@@ -34,8 +34,8 @@
 /** MAIN **/
 
 .main	{
-	margin-left: 20%;
-	padding-left: 10%;
+	margin-left: 25%;
+	padding: auto;
 }
 
 /** TAGS **/
@@ -66,12 +66,13 @@ a:link, a:active, a:visited	{
 }
 
 img {
+	height: 75vh;
 	border-radius: 10px;
 	opacity: 0.75;
 	filter: blur(2px);	/* learn how to animate this trasition */
 }
 
-div > img	{
+div.sidenav > img	{
 	border-radius: 5%;
 	border-color: rgba(60, 60, 60, 0.5);
 	height: 25%;
