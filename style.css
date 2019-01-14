@@ -60,7 +60,8 @@ body	{
 	*/
 
 	background-color: hsla(0, 0%, 15%, 1);
-	font-family: 'Staatliches', cursive;;	/* please change this sometime */
+	font-family: 'Staatliches', cursive;	/* please change this sometime */
+	text-align: center;
 	color:#666699;
 }
 
