@@ -1,7 +1,56 @@
+/** IMPORTS **/
+
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+/** SIDEBAR NAVIGATION **/
+
+.sidenav	{
+	height: 100%;
+	width: 25%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: hsla(0, 0%, 5%, 1);
+	overflow-x: hidden;
+	padding-top: 5%;
+}
+
+.sidenav a {
+	text-transform: uppercase;
+	padding: 5% 25%;
+	font-size: 32px;
+	color: orange;
+	text-align: center;
+	display: block;
+	transition: all 0.25s;
+}
+
+.sidenav a:hover	{
+	background-color: orange;
+	letter-spacing: 0.3em;
+}
+
+/** MAIN **/
+
+.main	{
+	margin-left: 20%;
+	padding-left: 10%;
+}
+
+/** TAGS **/
+
 body	{
-	background-color:#00264d;
-	font-family:arial narrow;
+	/*
+	background-image: url("https://c1.staticflickr.com/5/4749/40055803762_a20462435a_h.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	*/
+
+	background-color: hsla(0, 0%, 15%, 1);
+	font-family: 'Staatliches', cursive;;	/* please change this sometime */
 	color:#666699;
+	overflow-y: hidden;
 }
 
 h2	{
@@ -10,14 +59,35 @@ h2	{
 	color:orange;
 }
 
-a:link, a:active, a:visited	{ 
-	color: #01EAFF;
-	text-shadow: 0 0 10px #01EAFF;
-	text-decoration: underline;
+a:link, a:active, a:visited	{
+	color: orange /* #01EAFF */;
+	text-shadow: 0 0 8px orange /* #01EAFF */;
+	text-decoration: none;
+}
+
+img {
+	border-radius: 10px;
+	opacity: 0.75;
+	filter: blur(2px);	/* learn how to animate this trasition */
+}
+
+div > img	{
+	border-radius: 5%;
+	border-color: rgba(60, 60, 60, 0.5);
+	height: 25%;
+	width: 58%;
+	object-fit: cover;
+	margin: 0 20% 10%;
+	filter: none;
+}
+
+img:hover	{
+	opacity: 0.85;
+	transition:
 }
 
 a:hover	{
-	color: #FF9600;
-	text-shadow: 0 0 10px #FF9600;
-	text-decoration: underline;
+	color: black /* #FF9600 */;
+	text-shadow: 0 0 3px black /* #FF9600 */;
+	text-decoration: none;
 }
