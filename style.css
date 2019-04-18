@@ -66,9 +66,8 @@ body	{
 	color:#666699;
 }
 
-h2	{
+h1	{
 	text-align:center;
-	font-family:candara;
 	color:orange;
 }
 
@@ -82,7 +81,7 @@ img {
 	height: 75vh;
 	border-radius: 10px;
 	opacity: 0.75;
-	filter: blur(2px);	/* learn how to animate this trasition */
+	filter: blur(2px);	/* learn how to animate this transition */
 }
 
 img:hover	{
