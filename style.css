@@ -110,8 +110,6 @@ img:hover	{
 	padding-left: 13em;
 	padding-top: 1em;
 	padding-right: 1em;
-	height: 100vh; /* very limiting */
-	overflow: hidden;
 	scroll-behavior: smooth;
 }
 
