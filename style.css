@@ -22,7 +22,7 @@ body	{
 
 h1, h2, h3, h4, h5, h6	{
 	text-align:center;
-	color: #101010;
+	color: orange /* #101010 */;
 	font-family: 'IM Fell English SC', cursive;
 }
 
@@ -84,7 +84,7 @@ img:hover	{
 	filter: none;
 }
 
-/* Sidebar Links */
+/* SIDEBAR LINKS */
 
 .sidenav a:not(#profile) {
 	text-transform: uppercase;
@@ -104,12 +104,14 @@ img:hover	{
 	text-align: center;
 }
 
-/** MAIN **/
+/** SECTIONS **/
 
 .main	{
 	padding-left: 13em;
 	padding-top: 1em;
 	padding-right: 1em;
+	height: 100vh;
+	scroll-behavior: smooth;
 }
 
 /** GALLERY **/
