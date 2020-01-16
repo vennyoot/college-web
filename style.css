@@ -1,6 +1,6 @@
 /** IMPORTS **/
 
-@import url('https://fonts.googleapis.com/css?family=Staatliches|Abel|IM+Fell+English+SC');
+@import url('https://fonts.googleapis.com/css?family=Staatliches|Abel|Economica|Montserrat');
 
 /** TAGS **/
 
@@ -17,13 +17,13 @@ body	{
 
 	color:#666699;
 	background-color: hsla(0, 0%, 15%, 1);
-	font-family: 'Abel', cursive;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6	{
 	text-align:center;
 	color: orange /* #101010 */;
-	font-family: 'IM Fell English SC', cursive;
+	font-family: 'Economica', sans-serif;
 }
 
 a:link, a:active, a:visited	{
