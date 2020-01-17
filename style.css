@@ -104,9 +104,19 @@ img:hover	{
 	text-align: center;
 }
 
-/** SECTIONS **/
+/** MAIN **/
 
 .main	{
+	padding-left: 13em;
+	padding-top: 1em;
+	padding-right: 1em;
+	scroll-behavior: smooth;
+}
+
+/** SECTIONS **/
+
+.section	{
+	display: inline-block;
 	padding-left: 13em;
 	padding-top: 1em;
 	padding-right: 1em;
