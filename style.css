@@ -9,12 +9,6 @@ html {
 }
 
 body	{
-	/*
-	background-image: url("https://c1.staticflickr.com/5/4749/40055803762_a20462435a_h.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	*/
-
 	color:#666699;
 	background-color: hsla(0, 0%, 15%, 1);
 	font-family: 'Montserrat', sans-serif;
