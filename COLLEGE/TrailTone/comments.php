@@ -2,12 +2,12 @@
 <html lang="en-us">
 <head>
   <meta charset="utf-8">
-  <title>Comments | Breakout</title>
+  <title>Comments | NoxiiFinal</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 
 <body style="
-  text-align: center;
+	text-align: center;
   width: 65vw;
   margin: auto;
   margin-top: 4em">
@@ -41,7 +41,7 @@
 
   <input type="submit" value="Add" name="add"><br/><br/>
 
-<h1>Comments for KitchenChaos</h1>
+<h1>Comments for NoxiiFinal</h1>
 
     <?php
 
