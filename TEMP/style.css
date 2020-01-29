@@ -22,11 +22,11 @@ h1, h2	{
 }
 
 h3, h4, h5, h6	{
-	text-align:center;
 	font-size:42px;
 	color:#FFF;
 	font-family: 'Economica', cursive;
-	font-style: bold;
+	font-weight: bold;
+	margin-left: -1em;
 }
 
 a:link, a:active, a:visited	{
@@ -129,7 +129,7 @@ img:hover	{
 }
   
   /*this is for text in div class*/
-  #container .box > div {
+  #container .box > .floating {
 	width:100px;
 	height:100px;
 	font-size: 24px;
@@ -137,6 +137,10 @@ img:hover	{
 	margin: 50px 0 0 50px;
 	/*margin:10% 0 0 10%;
 	line-height:.7;*/
+  }
+
+  .content {
+	margin-left: 2em;
   }
 
 /*BIG CONTAINER*/

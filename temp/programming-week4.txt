@@ -1,0 +1,10 @@
+can serialize reference
+
+<h3>DELEGATES</h3>
+
+variables = stores value of a specific type<br/>
+delegate is a variable type that stores specific method signature<br/>
+explain method signatures<br/>
+
+if you ahve that variable that is not null, you can execute the method in the variable
+passing methods from one class to another (can be private method)
