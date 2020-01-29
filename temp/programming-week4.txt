@@ -1,8 +1,6 @@
 can serialize reference
 
-<h3>DELEGATES</h3>
-
-variables = stores value of a specific type
+<h3>DELEGATES</h3>variables = stores value of a specific type
 delegate is a variable type that stores specific method signature
 explain method signatures
 
@@ -11,8 +9,7 @@ you're only passing a reference, so pass the name not the ()
 if you ahve that variable that is not null, you can execute the method in the variable
 passing methods from one class to another (can be private method)
 
-<h3>synchronous vs asynchronous</h3>
-async = i want this method, but i will get result later
+<h3>synchronous vs asynchronous</h3>async = i want this method, but i will get result later
 friendslist is a network call, will freeze game if synchronous bc it will take a while
 ok go do that while i do something else etc
 
@@ -28,8 +25,7 @@ unfreeze
 
 this isn't going to work, it will freeze, then immediately unfreeze
 
-<h3>timer class</h3>
-public delegate void timer();
+<h3>timer class</h3>public delegate void timer();
 public void start(float duration, timer onComplete)	{
 
 do like a coroutine or something
@@ -39,8 +35,7 @@ coroutine method {
 onComplete.Invoke() //will invoke the method in this variable and will also work like onComplete()
 }
 
-<h3>events</h3>
-if goal, a bunch of things want to know that goal happened
+<h3>events</h3>if goal, a bunch of things want to know that goal happened
 we can use delegates like hey goal manager, check for goals all the time ok
 here is this method, use it when goal happens
 

@@ -64,7 +64,7 @@
                         testing</br></br>
                         <h2>Week 2</h2>
 
-                        <div class="content">
+                        <div id="prog 2" class="content">
 <?php echo file_get_contents("programming-week2.txt");?>
                         </div>
 
@@ -74,7 +74,7 @@
                         </br></br>
                         <h2>Week 4</h2>
                         
-                        <div class="content">
+                        <div id="prog 4" class="content">
 <?php echo file_get_contents("programming-week4.txt");?>
                         </div>
 

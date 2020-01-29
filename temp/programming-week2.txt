@@ -1,8 +1,7 @@
 Game Trailers: Student Games = the standard.
 Discuss proof of concept 1: ... Point is to throw it out (be efficient)
 
-<h3>INHERITANCE</h3>
-Still use code practices! > Saves time, reuse code
+<h3>INHERITANCE</h3>Still use code practices! > Saves time, reuse code
 private: not visible to children classes
 protected is inherited: to children
 Inheritance = use include? (: in cs)
@@ -13,18 +12,15 @@ This is the same with public (or protected) variables
 
 is really specific tho
 
-<h3>POLYMORPHISM</h3>
-Useful for tracking objects
+<h3>POLYMORPHISM</h3>Useful for tracking objects
 Polymorphism helps identify objects based on their type (anything it inherited from)
 
-<h3>COMPONENT BASED DESIGN</h3>
-keep components (scripts) simple and focused for reusability
+<h3>COMPONENT BASED DESIGN</h3>keep components (scripts) simple and focused for reusability
 compartmentalized: the code does not know about each other
 work smart not hard
 remove assumptions about game when coding
 
-<h3>CONTROLLER VS COMPONENTS</h3>
-controllers are the systems of the game that actually script the gameplay
+<h3>CONTROLLER VS COMPONENTS</h3>controllers are the systems of the game that actually script the gameplay
 controllers know about the components but components do not know controllers
 controllers do not get reused
 
@@ -33,8 +29,7 @@ components can be reused: jumping, wall jumping, etc (has some functionality)
 controllers will use unity magic methods (start, update)
 controllers handles errors, components throws errors
 
-<h3>REFERENCING</h3>
-dont use .find lmao<br />
+<h3>REFERENCING</h3>dont use .find lmao
 GetComponents gets alllll of the same type in an array on a game object... so if u have
 multiple
 colliders, it gets all of dem
@@ -46,10 +41,9 @@ So if it found it in current component, it will return the one on the current on
 If ur sprite render is in current component, or it is in children, then
 getcomponentinchildren
 will work for both
-<h3>ERRORS</h3>
-have ErrorPause in the console so u dont miss em
 
-<h3>NAMESPACES</h3>
-namespace MAKE A NAME UUWWUU {}
+<h3>ERRORS</h3>have ErrorPause in the console so u dont miss em
+
+<h3>NAMESPACES</h3>namespace MAKE A NAME UUWWUU {}
 and use it by "using MAKE A NAME UUWUU;"
 or use . like TheNameThing.type
