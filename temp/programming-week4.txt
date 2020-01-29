@@ -6,6 +6,8 @@ variables = stores value of a specific type
 delegate is a variable type that stores specific method signature
 explain method signatures
 
+you're only passing a reference, so pass the name not the ()
+
 if you ahve that variable that is not null, you can execute the method in the variable
 passing methods from one class to another (can be private method)
 

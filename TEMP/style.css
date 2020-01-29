@@ -28,7 +28,6 @@ h3, h4, h5, h6	{
 	font-family: 'Economica', cursive;
 	font-weight: bold;
 	white-space: pre;
-	margin-left: -1em;
 }
 
 a:link, a:active, a:visited	{
@@ -110,10 +109,6 @@ img:hover	{
 }
 
 /* TOGGLE */
-
-.content {
-	display: inline-block;
-}
   
 /* OTHER */
 
@@ -143,6 +138,7 @@ img:hover	{
 
   .content {
 	white-space: pre;
+	margin-left: -0.5em;
   }
 
 /*BIG CONTAINER*/
