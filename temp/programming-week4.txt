@@ -38,3 +38,15 @@ do like a coroutine or something
 coroutine method {
 onComplete.Invoke() //will invoke the method in this variable and will also work like onComplete()
 }
+
+<h3>events</h3>
+if goal, a bunch of things want to know that goal happened
+we can use delegates like hey goal manager, check for goals all the time ok
+here is this method, use it when goal happens
+
+events is a list of delegates
+you can subscribe to event
+when event happens, everything that subscribed gets it
+
+an event u can sub and unsub from
+hey u, can i sub, heres my email (reference)?

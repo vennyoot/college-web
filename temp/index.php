@@ -49,47 +49,45 @@
                     <p>
                         <h1>Sound Design</h1>
 
-                        <h2 style="font-size:42px; color:black">Week 1</h2>
+                        <h2>Week 1</h2>
                         testing</br></br>
-                        <h2 style="font-size:42px; color:black">Week 2</h2>
+                        <h2>Week 2</h2>
                         testing</br></br>
-                        <h2 style="font-size:42px; color:black">Week 3</h2>
+                        <h2>Week 3</h2>
                         testing</br></br>
-                        <h2 style="font-size:42px; color:black">Week 4</h2>
+                        <h2>Week 4</h2>
                         testing</br></br>
 
                         <h1>Programming</h1>
 
-                        <h2 style="font-size:42px; color:black">Week 1</h2>
+                        <h2>Week 1</h2>
                         testing</br></br>
-                        <h2 style="font-size:42px; color:black">Week 2</h2>
+                        <h2>Week 2</h2>
 
                         <div class="content">
-
-                            <?php echo file_get_contents("programming-week2.txt");?>
-                            
+<?php echo file_get_contents("programming-week2.txt");?>
                         </div>
 
                         </br></br>
-                        <h2 style="font-size:42px; color:black">Week 3</h2>
+                        <h2>Week 3</h2>
                         testing
                         </br></br>
-                        <h2 style="font-size:42px; color:black">Week 4</h2>
-                        testing
+                        <h2>Week 4</h2>
+                        
+                        <div class="content">
+<?php echo file_get_contents("programming-week4.txt");?>
+                        </div>
 
                         </br></br>
                         <h1>3D Level Design</h1>
 
-                        <h2 style="font-size:42px; color:black">Week 1</h2>
-                        testing
-                        </br></br>
-                        <h2 style="font-size:42px; color:black">Week 2</h2>
-                        testing
-                        </br></br>
-                        <h2 style="font-size:42px; color:black">Week 3</h2>
-                        testing
-                        </br></br>
-                        <h2 style="font-size:42px; color:black">Week 4</h2>
+                        <h2>Week 1</h2>
+                        testing</br></br>
+                        <h2>Week 2</h2>
+                        testing</br></br>
+                        <h2>Week 3</h2>
+                        testing</br></br>
+                        <h2>Week 4</h2>
                         testing
                         </br></br>
                     </p>
