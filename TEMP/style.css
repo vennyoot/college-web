@@ -22,11 +22,12 @@ h1, h2	{
 }
 
 h3, h4, h5, h6	{
+	text-transform: uppercase;
 	font-size:42px;
 	color:#FFF;
 	font-family: 'Economica', cursive;
 	font-weight: bold;
-	margin-left: -1em;
+	white-space: pre;
 }
 
 a:link, a:active, a:visited	{
@@ -140,7 +141,7 @@ img:hover	{
   }
 
   .content {
-	margin-left: 2em;
+	white-space: pre;
   }
 
 /*BIG CONTAINER*/

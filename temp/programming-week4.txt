@@ -2,9 +2,37 @@ can serialize reference
 
 <h3>DELEGATES</h3>
 
-variables = stores value of a specific type<br/>
-delegate is a variable type that stores specific method signature<br/>
-explain method signatures<br/>
+variables = stores value of a specific type
+delegate is a variable type that stores specific method signature
+explain method signatures
 
 if you ahve that variable that is not null, you can execute the method in the variable
 passing methods from one class to another (can be private method)
+
+<h3>synchronous vs asynchronous</h3>
+async = i want this method, but i will get result later
+friendslist is a network call, will freeze game if synchronous bc it will take a while
+ok go do that while i do something else etc
+
+delegate: hey i need this, can u do this when this is done thanks
+^this is a callback
+
+
+if (input) {
+freeze
+//wait a bit
+unfreeze
+}
+
+this isn't going to work, it will freeze, then immediately unfreeze
+
+<h3>timer class</h3>
+public delegate void timer();
+public void start(float duration, timer onComplete)	{
+
+do like a coroutine or something
+}
+
+coroutine method {
+onComplete.Invoke() //will invoke the method in this variable and will also work like onComplete()
+}

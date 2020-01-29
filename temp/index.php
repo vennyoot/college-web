@@ -29,22 +29,22 @@
     <div id="container">
         <div id="container2">
             <div class="box one" id="about">
-                <div>
+                <div class="floating">
                     <h1>About</h1>
                 </div>
             </div>
             <div class="box two" id="artwork">
-                <div>
+                <div class="floating">
                     <h1>Artwork</h1>
                 </div>
             </div>
             <div class="box one" id="projects">
-                <div>
+                <div class="floating">
                     <h1>Projects</h1>
                 </div>
             </div>
             <div class="box two" id="college">
-                <div>
+                <div class="floating">
                     <h1>College</h1></br>
                     <p>
                         <h1>Sound Design</h1>
@@ -64,7 +64,11 @@
                         testing</br></br>
                         <h2 style="font-size:42px; color:black">Week 2</h2>
 
-                        <?php echo file_get_contents("programming-week2.txt");?>
+                        <div class="content">
+
+                            <?php echo file_get_contents("programming-week2.txt");?>
+                            
+                        </div>
 
                         </br></br>
                         <h2 style="font-size:42px; color:black">Week 3</h2>
