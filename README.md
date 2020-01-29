@@ -1,2 +1,0 @@
-# vennyoot-web
-yoot

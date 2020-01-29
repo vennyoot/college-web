@@ -1,7 +1,77 @@
-body {
-	margin:0;
-	font-family:Georgia;
-  }
+/** IMPORTS **/
+
+@import url('https://fonts.googleapis.com/css?family=Staatliches|Abel|Economica|Montserrat');
+
+/** TAGS **/
+
+html {
+	scroll-behavior: smooth;
+}
+
+body	{
+	color:#666699;
+	background-color: hsla(0, 0%, 15%, 1);
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6	{
+	text-align:center;
+	color: orange /* #101010 */;
+	font-family: 'Economica', sans-serif;
+}
+
+a:link, a:active, a:visited	{
+	color: orange /* #01EAFF */;
+	text-shadow: 0 0 8px orange /* #01EAFF */;
+	text-decoration: none;
+	font-family: 'Staatliches', cursive;
+	transition: all 0.25s;
+}
+
+a:hover	{
+	color: black /* #FF9600 */;
+	text-shadow: 0 0 3px black /* #FF9600 */;
+	text-decoration: none;
+	transition: all 0.25s;
+}
+
+img {    
+	/*display: block;
+    margin: 0 auto;*/
+	height: 45vh;
+	border-radius: 10px;
+	opacity: 0.75;
+	object-fit: cover;
+	filter: blur(1px);	/* animate this transition */
+	transition: all 0.25s;
+	transition-timing-function: all ease-in-out;
+}
+
+img:hover	{
+	opacity: 0.85;
+	filter: none;
+	transform: scale(1.1);
+}
+
+/** SIDEBAR LINKS **/
+
+.sidenav a:not(#profile) {
+	text-transform: uppercase;
+	padding: 5% 25%;
+	font-size: 1em;
+	color: orange;
+	text-align: center;
+	display: block;
+	transition: all 0.25s;
+}
+
+.sidenav a:hover:not(#profile)	{
+	color: black;
+	background-color: orange;
+	letter-spacing: 0.3em;
+	font-size: 1.1em;
+	text-align: center;
+}
 
 /** SIDEBAR NAVIGATION **/
 
@@ -13,7 +83,7 @@ body {
 	top: 0;
 	left: 0;
 	padding: auto;
-	background-color: hsla(0, 0%, 5%, 1);
+	background-color: rgb(32, 32, 32);
 	overflow-x: hidden;
 	padding-top: 20vh;
 }
@@ -28,12 +98,18 @@ body {
 	filter: none;
 }
 
+/* OTHER */
+
+/*this is main box id*/
   #container .box {
-	width:100vw;
-	height:100vh;
+	width: calc(100vw - 192px);
+	height: 100vh;
 	display:inline-block;
 	position:relative;
   }
+
+
+  /*this is for text in div class*/
   #container .box > div {
 	width:100px;
 	height:100px;
@@ -46,16 +122,24 @@ body {
 	line-height:.7;
 	font-weight:bold;
   }
+
+/*BIG CONTAINER*/
   #container {
-	overflow-y:scroll;
-	overflow-x:hidden;
+	scroll-behavior: smooth;
+	overflow-y:hidden;
+	overflow-x:scroll;
 	transform: rotate(270deg) translateX(-100%);
 	transform-origin: top left;
 	background-color:#999;
 	position:absolute;
 	width:100vh;
-	height:100vw;
+	height: -webkit-calc(100vw - 12em);
+	height: -moz-calc(100vw - 12em);
+	height: calc(100vw - 12em);
+	margin-left: 12em;
   }
+
+  /*inside container*/
   #container2 {
 	transform: rotate(90deg) translateY(-100vh);
 	transform-origin: top left;
@@ -64,16 +148,10 @@ body {
   }
   
   .one {
-	background-color: #45CCFF;
+	background-color: rgb(104, 104, 104);
   }
   .two {
-	background-color: #49E83E;
-  }
-  .three {
-	background-color: #EDDE05;
-  }
-  .four {
-	background-color: #E84B30;
+	background-color: rgb(59, 59, 59);
   }
   
   

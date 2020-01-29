@@ -78,7 +78,7 @@ img:hover	{
 	filter: none;
 }
 
-/* SIDEBAR LINKS */
+/** SIDEBAR LINKS **/
 
 .sidenav a:not(#profile) {
 	text-transform: uppercase;
