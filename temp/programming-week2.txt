@@ -1,0 +1,52 @@
+Game Trailers: Student Games = the standard.<br />
+Discuss proof of concept 1: ... Point is to throw it out (be efficient)<br />
+
+                        <h3>inheritance</h3>
+                        Still use code practices! > Saves time, reuse code<br />
+                        private: not visible to children classes<br />
+                        protected is inherited: to children<br />
+                        Inheritance = use include? (: in cs)<br />
+
+                        If parent class has move(), then child class has move() if the method is public or
+                        protected<br />
+                        This is the same with public (or protected) variables<br />
+
+                        is really specific tho<br />
+
+                        <h3>polymorphism</h3>
+                        Useful for tracking objects<br />
+                        Polymorphism helps identify objects based on their type (anything it inherited from)<br />
+
+                        <h3>component based design</h3>
+                        keep components (scripts) simple and focused for reusability<br />
+                        compartmentalized: the code does not know about each other<br />
+                        work smart not hard<br />
+                        remove assumptions about game when coding<br />
+
+                        <h3>controllers vs. components</h3>
+                        controllers are the systems of the game that actually script the gameplay<br />
+                        controllers know about the components but components do not know controllers<br />
+                        controllers do not get reused<br />
+
+                        components can be reused: jumping, wall jumping, etc (has some functionality)<br />
+
+                        controllers will use unity magic methods (start, update)<br />
+                        controllers handles errors, components throws errors<br />
+
+                        <h3>referencing</h3>
+                        dont use .find lmao<br />
+                        GetComponents gets alllll of the same type in an array on a game object... so if u have multiple
+                        colliders, it gets all of dem<br />
+                        GetComponentInChildren searches current gameobjet and then children<br />
+                        GetComponentInParent... everything in parents (so above, it's reversed) will search itself<br />
+                        So if it found it in current component, it will return the one on the current one<br />
+
+                        If ur sprite render is in current component, or it is in children, then getcomponentinchildren
+                        will work for both<br />
+                        <h3>errors</h3>
+                        have ErrorPause in the console so u dont miss em
+
+                        <h3>namespaces!</h3>
+                        namespace MAKE A NAME UUWWUU {}
+                        and use it by "using MAKE A NAME UUWUU;"<br />
+                        or use . like TheNameThing.type<br />

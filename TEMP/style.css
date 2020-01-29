@@ -14,11 +14,19 @@ body	{
 	font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6	{
+h1, h2	{
 	text-align:center;
 	font-size:64px;
 	color:#FFF;
 	font-family: 'Staatliches', cursive;
+}
+
+h3, h4, h5, h6	{
+	text-align:center;
+	font-size:42px;
+	color:#FFF;
+	font-family: 'Economica', cursive;
+	font-style: bold;
 }
 
 a:link, a:active, a:visited	{
@@ -100,6 +108,10 @@ img:hover	{
 }
 
 /* TOGGLE */
+
+.content {
+	display: inline-block;
+}
   
 /* OTHER */
 
@@ -123,8 +135,8 @@ img:hover	{
 	font-size: 24px;
 	position:absolute;
 	margin: 50px 0 0 50px;
-	/*margin:10% 0 0 10%;*/
-	line-height:.7;
+	/*margin:10% 0 0 10%;
+	line-height:.7;*/
   }
 
 /*BIG CONTAINER*/
