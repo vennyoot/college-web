@@ -41,7 +41,7 @@
 
   <input type="submit" value="Add" name="add"><br/><br/>
 
-<h1>Comments for KitchenChaos</h1>
+<h1>Comments for Breakout</h1>
 
     <?php
 
